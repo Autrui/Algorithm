@@ -1,7 +1,7 @@
 package com.dwg.classtest.streamdfs.entity;
 
 import lombok.AllArgsConstructor;
-import lombok.Data;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 import java.util.Iterator;
@@ -13,7 +13,7 @@ import java.util.stream.Stream;
  *
  * @param <T>
  */
-@Data
+@Getter
 @AllArgsConstructor
 @NoArgsConstructor
 public class TreeDfsStackHead<T> {

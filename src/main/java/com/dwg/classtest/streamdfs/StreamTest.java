@@ -17,7 +17,7 @@ import java.util.stream.Stream;
  * @date 2023/6/24
  * @apiNote https://zhuanlan.zhihu.com/p/82508008
  */
-@Slf4j
+
 public class StreamTest {
     @Test
     public void test() {
